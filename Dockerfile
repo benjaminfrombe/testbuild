@@ -1,2 +1,3 @@
-FROM nginx:1.15.8-alpine
+FROM php:apache
 LABEL version="1.0.0"
+RUN apt-get update && apt-get -y install python
